@@ -2,10 +2,10 @@
 
 require('./styles');
 
-var hello = require('./templates/hello.jade')({});
+var numberBox = require('./templates/grid.jade')({});
 
 var app = function () {
-  document.body.innerHTML = hello;
+  document.body.innerHTML = numberBox;
 };
 
 window.onload = app;

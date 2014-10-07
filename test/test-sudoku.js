@@ -25,6 +25,6 @@ test('Sudoku: creation', function (t) {
   // Set a value to something the generator will never return
   sudoku.update(0, 0, 10);
   secondHTML = sudoku.html();
-  t.notequal(firstHTML, secondHTML, 'the html returned from sudoke should be different after board has been updated');
+  t.notEqual(firstHTML, secondHTML, 'the html returned from sudoku should be different after board has been updated');
   t.end();
 });

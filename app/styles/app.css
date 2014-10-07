@@ -24,11 +24,12 @@ tr:nth-child(3n) td {
 }
 
 input {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   text-align: center;
   border: none;
   outline: none;
+  background: none;
 }
 
 #title {

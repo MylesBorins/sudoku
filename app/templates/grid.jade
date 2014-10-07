@@ -3,4 +3,4 @@ table
     tr
     for column, columnIndex in row
       td(class='row#{rowIndex} column#{columnIndex}')
-        input(maxlength="1" value="#{column}" disabled=column !== '')
+        input.sudoku-box(maxlength="1" value="#{column}" disabled=column !== '')

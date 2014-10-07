@@ -3,12 +3,13 @@
 // Bootstrap styles
 require('./styles');
 
-var _ = require('lodash');
-var range = _.range;
+// Lib dependencies
+var sudoku = require('../lib');
+
+var board = sudoku();
 
 var grid = require('./templates/grid.jade')({
-  rows: range(9),
-  columns: range(9)
+  board: board
 });
 
 var title = require('./templates/title.jade')({});

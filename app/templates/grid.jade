@@ -1,0 +1,6 @@
+table
+  each row, rowIndex in board
+    tr
+    for column, columnIndex in row
+      td(class='row#{rowIndex} column#{columnIndex}')
+        input(maxlength="1")

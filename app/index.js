@@ -6,7 +6,7 @@ require('./styles');
 // Lib dependencies
 var sudoku = require('../lib');
 
-var board = sudoku();
+var board = sudoku.generate();
 
 var grid = require('./templates/grid.jade')({
   board: board

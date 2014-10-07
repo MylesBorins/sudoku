@@ -3,9 +3,9 @@
 var lib = require('../lib');
 var grid = require('./templates/grid.jade');
 
-function Sudoku() {
+function Sudoku(board) {
   var that = {
-    board: lib.generate()
+    board: board || lib.generate()
   };
   that.html = function () {
     return grid({
@@ -15,6 +15,9 @@ function Sudoku() {
   that.update = function (x, y, newval) {
     that.board[x][y] = newval;
     return that;
+  };
+  that.check = function () {
+    return lib.check(that.board);
   };
   return that;
 }

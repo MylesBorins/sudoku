@@ -1,7 +1,7 @@
 /*Inspired by http://codepen.io/gc-nomade/pen/eBcCI*/
 
 table {
-  margin:1em auto;
+  margin:0em auto;
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -9,7 +9,6 @@ td {
   height:30px;
   width:30px;
   border:1px solid;
-  text-align:center;
 }
 td:first-child {
   border-left:solid;
@@ -28,4 +27,6 @@ input {
   width: 80%;
   height: 80%;
   text-align: center;
+  border: none;
+  outline: none;
 }

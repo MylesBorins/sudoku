@@ -4,13 +4,13 @@ var _ = require('lodash');
 
 var sudoku = require('../lib');
 
-test('sudoku-lib: loading', function (t) {
+test('lib: loading', function (t) {
   t.plan(2);
   t.ok(sudoku, 'it should load');
   t.equal(typeof sudoku, 'object', 'it should return an object');
 });
 
-test('sudoku-lib: api', function (t) {
+test('lib: api', function (t) {
   t.plan(2);
   t.ok(sudoku.generate, 'it should have a method called generate');
   t.ok(sudoku.check, 'it should have a method called check');

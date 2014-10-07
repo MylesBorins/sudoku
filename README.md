@@ -6,6 +6,7 @@ Abstract the grid into it's own npm module! (abstraction)
 Make it all aria! (inclusive design)
 Scale better. (responsiveness)
 Sanitize orientation Change. (experience)
+Don't always run check... 
 
 ---
 

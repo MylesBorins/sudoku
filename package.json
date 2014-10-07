@@ -16,7 +16,7 @@
     "start-dev": "npm run watch & node server.js",
     "test": "npm run lint -s && npm run build && npm run tape",
     "watch-tape": "nodemon --ignore node_modules/ -e js,json,jade,css --exec 'npm run tape'",
-    "tape": "tape test/test-*.js | tap-spec",
+    "tape": "browserify test/test-*.js --debug | testling | tap-spec",
     "build": "browserify app/index.js | uglifyjs > public/bundle.js",
     "watch": "watchify app/index.js -o public/bundle.js --debug --verbose",
     "lint-eslint": "eslint app/",
@@ -27,7 +27,8 @@
     "eslint": "^0.8.2",
     "jscs": "^1.5.8",
     "nodemon": "^1.2.1",
-    "tap-spec": "^1.0.0"
+    "tap-spec": "^1.0.0",
+    "testling": "^1.7.1"
   },
   "author": "TheAlphaNerd",
   "license": "ISC",

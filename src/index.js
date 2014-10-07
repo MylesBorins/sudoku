@@ -11,8 +11,12 @@ var grid = require('./templates/grid.jade')({
   columns: range(9)
 });
 
+var title = require('./templates/title.jade')({});
+
 var app = function () {
+  var titleDiv = document.getElementById('title');
   var gridDiv = document.getElementById('grid');
+  titleDiv.innerHTML = title;
   gridDiv.innerHTML = grid;
 };
 

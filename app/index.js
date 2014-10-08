@@ -17,8 +17,8 @@ function bootstrapEvents(sudoku) {
   var i;
 
   function inputHandler(e) {
-    var data = e.srcElement.parentElement.classList;
-    var newVal = sanitizeInput(e.srcElement.value);
+    var data = e.target.parentElement.classList;
+    var newVal = sanitizeInput(e.target.value);
 
     // set the element to the sanitized input
     e.target.value = newVal;

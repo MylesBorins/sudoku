@@ -1,7 +1,7 @@
 {
   "name": "sudoku",
-  "version": "0.0.1",
-  "description": "seed for fun and profit",
+  "version": "0.1.0",
+  "description": "building sudoku with browserify",
   "browser": "app/lib/index.js",
   "main": "plugin.js",
   "browserify": {

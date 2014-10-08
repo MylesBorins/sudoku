@@ -36,3 +36,7 @@ input {
   text-align: center;
   transform: scale(0.5, 0.5);
 }
+
+.prefilled {
+  background-color: #eee;
+}

@@ -7,6 +7,12 @@ function Sudoku(board) {
   var that = {
     board: board || lib.generate()
   };
+
+  that.newGame = function (board) {
+    that.board = board || lib.generate();
+    return that;
+  };
+
   that.html = function () {
     return grid({
       board: that.board

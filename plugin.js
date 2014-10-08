@@ -1,5 +1,7 @@
 var path = require('path');
 
+// Exports hapi plugin that serves the public folder as a stattic directory
+
 exports.register = function (plugin, options, next) {
   plugin.route({
     method: 'GET',

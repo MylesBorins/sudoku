@@ -7,8 +7,7 @@
   "browserify": {
     "transform": [
       "cssify",
-      "jadeify",
-      "brfs"
+      "jadeify"
     ]
   },
   "scripts": {
@@ -36,7 +35,6 @@
   "author": "TheAlphaNerd",
   "license": "ISC",
   "dependencies": {
-    "brfs": "^1.1.1",
     "browserify": "^6.0.2",
     "cssify": "^0.6.0",
     "deep-equal": "^0.2.1",

@@ -29,7 +29,9 @@
     "lodash": "^2.4.1",
     "nodemon": "^1.2.1",
     "tap-spec": "^1.0.0",
-    "testling": "^1.7.1"
+    "testling": "^1.7.1",
+    "tape": "^3.0.0",
+    "watchify": "^1.0.1"
   },
   "author": "TheAlphaNerd",
   "license": "ISC",
@@ -41,8 +43,6 @@
     "hapi": "^6.5.1",
     "jade": "^1.7.0",
     "jadeify": "^2.6.0",
-    "tape": "^3.0.0",
-    "uglify-js": "^2.4.15",
-    "watchify": "^1.0.1"
+    "uglify-js": "^2.4.15"
   }
 }

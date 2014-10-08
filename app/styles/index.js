@@ -1,2 +1,2 @@
-// load css
+// load css using cssify
 require('./app.css');

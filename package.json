@@ -25,7 +25,6 @@
   "devDependencies": {
     "eslint": "^0.8.2",
     "jscs": "^1.5.8",
-    "lodash": "^2.4.1",
     "nodemon": "^1.2.1",
     "tap-spec": "^1.0.0",
     "testling": "^1.7.1",
@@ -41,6 +40,7 @@
     "hapi": "^6.5.1",
     "jade": "^1.7.0",
     "jadeify": "^2.6.0",
+    "lodash": "^2.4.1",
     "uglifyify": "^2.5.0"
   }
 }

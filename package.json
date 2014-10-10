@@ -27,16 +27,16 @@
     "jscs": "^1.5.8",
     "nodemon": "^1.2.1",
     "tap-spec": "^1.0.0",
-    "testling": "^1.7.1",
     "tape": "^3.0.0",
-    "watchify": "^1.0.1"
+    "testling": "^1.7.1",
+    "watchify": "^2.0.0"
   },
   "author": "TheAlphaNerd",
   "license": "ISC",
   "dependencies": {
     "browserify": "^6.0.2",
     "cssify": "^0.6.0",
-    "hapi": "^6.5.1",
+    "hapi": "^7.0.0",
     "jade": "^1.7.0",
     "jadeify": "^2.6.0",
     "lodash": "^2.4.1",

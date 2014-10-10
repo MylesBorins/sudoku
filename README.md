@@ -2,7 +2,7 @@
 
 ##By: Myles Borins
 
-[![Build Status](https://travis-ci.org/TheAlphaNerd/sudoku.svg)](https://travis-ci.org/TheAlphaNerd/sudoku) [![Dependency Status](https://david-dm.org/thealphanerd/sudoku.svg)](https://david-dm.org/thealphanerd/sudoku) [![devDependency Status](https://david-dm.org/thealphanerd/sudoku/dev-status.svg)](https://david-dm.org/thealphanerd/sudoku#info=devDependencies)
+[![Dependency Status](https://david-dm.org/thealphanerd/sudoku.svg)](https://david-dm.org/thealphanerd/sudoku) [![devDependency Status](https://david-dm.org/thealphanerd/sudoku/dev-status.svg)](https://david-dm.org/thealphanerd/sudoku#info=devDependencies)
 
 ---
 

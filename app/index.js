@@ -14,14 +14,14 @@ var winnerMenu = require('./templates/winner.json');
 // This function verifies a users input is in fact a number and returns a santized value
 function sanitizeInput(input) {
   input = Number(input);
-  return Number.isInteger(input) && input !== 0  ? input : '';
+  return Number.isInteger(input) && input !== 0 ? input : '';
 }
 
 // A generic function that can attack an event handler to a specific event type
 // to all input boxes in a sudoku grid
 
 function attachEvents(sudoku, eventType, handler) {
-  var boxes =  document.getElementsByClassName('sudoku-box');
+  var boxes = document.getElementsByClassName('sudoku-box');
   var len = boxes.length;
   var i;
 
